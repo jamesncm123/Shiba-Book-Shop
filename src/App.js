@@ -57,7 +57,7 @@ function App() {
     document.title = `You clicked ${count} times`;
     console.log(count)
   
-    fetch("http://139.59.242.168:8080/list/apple",{
+    fetch("http://127.0.0.1:8080/list/apple",{
           method: 'GET', // *GET, POST, PUT, DELETE, etc.
           headers: {
             'Content-Type': 'application/json',
